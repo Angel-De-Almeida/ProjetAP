@@ -1,0 +1,94 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/857455.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background-color: red;
+    height: 110px;
+}
+
+.navbar-top {
+    background-color: rgb(88, 83, 83);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-bot {
+    background-color: rgb(80, 60, 60);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-bot ul{
+    display: flex;
+}
+
+.navbar-bot ul li{
+    margin: 0 150px;
+}
+
+.titre {
+    flex: 5;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4em;
+}
+
+.auth {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+
+.login {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.register {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.contact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    left: 0;
+}
