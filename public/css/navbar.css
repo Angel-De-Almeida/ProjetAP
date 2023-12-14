@@ -5,25 +5,21 @@
     padding: 0;
 }
 
+/* NAVBAR */
+
 body {
     font-family: 'Courier New', Courier, monospace;
-}
-
-header {
-    height: 100vh;
-    width: 100%;
-    background: url('../img/857455.jpg');
-    background-size: cover;
+    background: #16151d;
+    color: white;
 }
 
 .navbar {
-    background-color: red;
     height: 110px;
 }
 
 .navbar-top {
-    background-color: rgb(88, 83, 83);
-    height: 55px;
+    background: #0b0a0d;    
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -32,8 +28,8 @@ header {
 }
 
 .navbar-bot {
-    background-color: rgb(80, 60, 60);
-    height: 55px;
+    background: #913fe2;
+    height: 42px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -92,3 +88,5 @@ header {
     padding: 5px;
     left: 0;
 }
+
+

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ViewController;
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -15,8 +16,16 @@ use App\Http\Controllers\ViewController;
 |
 */
 
-
 Route::get('/', [ViewController::class, 'index']);
+
+Route::get('layout', [ViewController::class, 'layout']);
+
+Route::get('liste', [ViewController::class, 'liste'])->name('liste');
+
+Route::get('/scans/create', [ViewController::class, 'create'])->name('scans.create');
+Route::post('/scans', [AdminController::class, 'store'])->name('scans.store');
+
+
 
 
 Route::middleware([
